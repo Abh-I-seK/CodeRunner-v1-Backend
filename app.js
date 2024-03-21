@@ -6,7 +6,7 @@ import cors from "cors"
 app.use(bodyParser.json());
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://code-runner-frontend-gamma.vercel.app'
 }));
 
 app.get("/codes" , async(req , res) => {
